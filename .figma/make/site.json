@@ -1,0 +1,10 @@
+{
+  "description": "This platform offers affordable website building services tailored for small businesses, emphasizing quick turnaround times and exceptional support.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

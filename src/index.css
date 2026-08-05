@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-brand-green: #1a3d2b;
+  --color-brand-green-light: #2d6a47;
+  --color-brand-amber: #f59e0b;
+  --color-brand-amber-dark: #d97706;
+  --color-cream: #faf9f5;
+  --color-cream-dark: #f0ede3;
+  --color-stone: #78716c;
+  --color-ink: #1c1917;
+  --font-display: 'Lora', Georgia, serif;
+  --font-body: 'Outfit', system-ui, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #d6d3d1 transparent;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #faf9f5;
+  color: #1c1917;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}
